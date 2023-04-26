@@ -1,0 +1,65 @@
+html,
+body {
+    font-family: Open Sans, arial;
+    line-height: 1.5;
+}
+
+#navbar {}
+
+#navbar ul {
+    border: solid;
+    max-height: 235;
+    overflow-x: hidden;
+}
+
+#navbar li {
+    border-bottom: 1px solid lightgray;
+}
+
+#navbar li:last-of {
+    border-bottom: none;
+}
+
+#navbar header {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #navbar {
+        position: fixed;
+        border-right: 1px solid lightgray;
+    }
+    #navbar ul {
+        border: none;
+        max-height: none;
+    }
+}
+
+.main-section header {}
+
+@media (min-width: 768px) {
+    #main-doc {
+        margin-left: 290px;
+    }
+}
+
+header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+li {
+    display: block;
+    padding: 0.5rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+code {
+    display: block;
+    background-color: lightgray;
+    padding: 1rem
+}
